@@ -56,5 +56,7 @@ identity:
 hooks:
   post_install: scripts/install.sh
 quick_start:
-  command: /iterate-visual
-  description: design iteration with live screenshot feedback
+  command: /synthesize
+  description: "Show me what your project tastes like — extract the visual DNA into tokens"
+  follow_up: /inscribe
+  follow_up_description: "Then apply what you've discovered to components"
