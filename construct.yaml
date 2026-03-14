@@ -2,7 +2,7 @@ schema_version: 3
 name: Artisan
 slug: artisan
 version: 1.0.0
-description: "Turns 'this feels off' into an engineering specification. Decomposes interfaces into structure, motion, and material, then inscribes taste as measurable tokens \u2014 oklch deltas, spring constants, spacing rhythms \u2014 that compound across every surface they touch. Craft precedes judgment."
+description: "Turns 'this feels off' into an engineering specification. Decomposes interfaces into structure, motion, and material — oklch deltas, spring constants, spacing rhythms. Craft precedes judgment."
 short_description: "Taste made measurable"
 domain:
   - design
