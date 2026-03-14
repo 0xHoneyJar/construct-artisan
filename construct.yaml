@@ -53,7 +53,27 @@ events:
       data_schema:
         patterns_found: number
         report_path: string
-  consumes: []
+  consumes:
+    - event: forge.observer.canvas_created
+      description: "Observer canvases inform taste token decisions"
+type: skill-pack
+composition_paths:
+  reads:
+    - grimoires/laboratory/canvases/
+  writes:
+    - grimoires/artisan/
+compose_with:
+  - slug: observer
+    relationship: "Observer canvases provide user truth that informs Artisan's taste synthesis and inscription"
+governs:
+  - slug: the-easel
+    relationship: "Taste token governance — Easel TDRs must conform to Artisan-inscribed tokens"
+  - slug: showcase
+    relationship: "Taste token governance — Showcase renders must follow Artisan taste tokens"
+  - slug: the-arcade
+    relationship: "Taste token governance — Arcade UI must follow Artisan taste tokens"
+  - slug: the-mint
+    relationship: "Taste token governance — Mint output must follow Artisan taste tokens"
 identity:
   persona: identity/persona.yaml
   expertise: identity/expertise.yaml
