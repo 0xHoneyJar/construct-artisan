@@ -74,9 +74,21 @@ governs:
     relationship: "Taste token governance — Arcade UI must follow Artisan taste tokens"
   - slug: the-mint
     relationship: "Taste token governance — Mint output must follow Artisan taste tokens"
+  - slug: the-speakers
+    relationship: "Taste token governance — Speakers sonic identity must follow Artisan taste tokens"
 identity:
   persona: identity/persona.yaml
   expertise: identity/expertise.yaml
+capabilities:
+  model_tier: sonnet
+  danger_level: safe
+  effort_hint: medium
+  downgrade_allowed: true
+  execution_hint: parallel
+  requires:
+    tool_calling: true
+    thinking_traces: false
+    vision: false
 hooks:
   post_install: scripts/install.sh
 quick_start:
