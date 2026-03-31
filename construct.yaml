@@ -2,8 +2,8 @@ schema_version: 3
 name: Artisan
 slug: artisan
 version: 1.0.0
-description: "Turns 'this feels off' into an engineering specification. Decomposes interfaces into structure, motion, and material — oklch color deltas, spring constants, spacing rhythms. 14 skills covering design feedback analysis, animation patterns, component architecture, and accessibility audits."
-short_description: "UI design specs from feel feedback"
+description: "Turns 'this feels off' into a design specification. Breaks down UI into color, animation, and spacing — then gives you the exact values. 14 skills covering design feedback analysis, animation patterns, component architecture, and accessibility audits."
+short_description: "Turn UI feel into design specs"
 domain:
   - design
 author: 0xHoneyJar
