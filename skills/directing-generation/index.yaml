@@ -1,0 +1,63 @@
+name: directing-generation
+slug: directing-generation
+version: 1.0.0
+description: Creative direction for AI image generation — distill codebase FEEL canon (taste tokens, TDRs, personas) into prompt-ready material vocabulary, map product architecture to scene systems, enforce visual discipline across scene stacks.
+
+triggers:
+  - "/direct-generation"
+  - "/directing-generation"
+  - "direct AI image generation"
+  - "build a scene stack"
+  - "distill for generation"
+  - "banner system for the stack"
+  - "creative direction for banners"
+
+examples:
+  - context: "User has an existing design system and wants to produce matching AI-generated art"
+    user_says: "We have taste.md and a bunch of TDRs. I need to produce a banner set that honors all of this."
+    agent_action: "Launch directing-generation — Phase 1 distills OKLCH palette, named treatments, and discipline rules from the canon; Phase 2 maps product layers to scene locations; Phase 3 enforces single-stamp discipline; hand off to The Mint's prompting-images for the prompt technique."
+  - context: "User is building a multi-layer product stack and wants one banner per layer"
+    user_says: "I need six banners, one per layer of our architecture, all consistent"
+    agent_action: "Launch directing-generation to map architectural function to spatial metaphor (protocol=temple, runtime=transit, platform=gateway, etc.), define the shared DNA block, then hand each scene to prompting-images."
+  - context: "User wants to validate a scene set before shipping"
+    user_says: "Review these 6 banners — do they hang together?"
+    agent_action: "Launch directing-generation § Phase 4 (shelf test) — grid-layout review, check family resemblance, instant distinguishability, stamp equivalence, lockup legibility."
+  - context: "User describing visual direction in IP-referencing language"
+    user_says: "I want it to feel like Evangelion meets Neo Tokyo meets Ghost in the Shell"
+    agent_action: "Launch directing-generation to translate lineage references into material vocabulary (angular biomechanical entity with eye-slits, monumental billboard scale-contrast, functional cathode terminal interfaces) — keeps IP context in the brief, strips it from the shipped prompt."
+
+domain_hints:
+  - creative-direction
+  - visual-direction
+  - banner-system
+  - scene-stack
+  - taste-tokens
+  - design-canon
+  - feel-canon
+  - art-direction
+  - concept-art
+  - TDR
+  - OKLCH
+  - palette-discipline
+  - shelf-test
+
+entry: SKILL.md
+
+capabilities:
+  model_tier: sonnet
+  danger_level: safe
+  effort_hint: medium
+  downgrade_allowed: false
+  execution_hint: sequential
+  requires:
+    native_runtime: true
+    tool_calling: true
+    thinking_traces: false
+    vision: true
+
+allowed-tools:
+  - Read
+  - Write
+  - Glob
+  - Grep
+  - Edit
