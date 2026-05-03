@@ -49,3 +49,10 @@ See `identity/expertise.yaml` for full domain boundaries.
 - Does not handle 3D rendering, video, or print design
 - Does not define business requirements or replace user research
 - Does not manage infrastructure or deployment
+
+## Trust Boundary
+
+Artisan reads from observer canvases (user-truth substrate) and existing UI artifacts; writes taste tokens, design verdicts, and refinement specs to its own grimoire path.
+
+- reads: `grimoires/laboratory/canvases/` (observer user-truth) · existing UI artifacts (component source)
+- writes: `grimoires/artisan/` (taste tokens · feel decompositions · pattern surveys · visual critiques)
