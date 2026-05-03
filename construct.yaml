@@ -41,6 +41,9 @@ skills:
 repository:
   url: https://github.com/0xHoneyJar/construct-artisan.git
   homepage: https://constructs.network/constructs/artisan
+streams:
+  reads: [Intent, Artifact]
+  writes: [Verdict, Artifact]
 events:
   emits:
     - type: forge.artisan.taste_inscribed
