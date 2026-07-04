@@ -311,6 +311,21 @@ Based on user response:
 
 Apply the fix based on feedback, then return to Phase 2 (capture screenshot).
 
+**Read the round type before you act — it governs whether to present alternatives or apply
+the mandate.** Two iteration rounds look alike but want opposite moves:
+
+- **Selection round** (e.g. Phase 4 "Show alternatives") — change ONE variable, present the
+  slice, and **halt at the marks seam** awaiting the operator's pick. Applying more than the
+  one variable here pre-empts the choice.
+- **Execution round** — the operator has *already* marked the direction: a mandated scope
+  ("apply these 5 component ports to the tree"), not an open question. **Apply the full
+  mandated scope to the tree**; do not re-present a halting A/B slice.
+
+The tell of the miss: an explicit, already-marked EXECUTION directive that still produces one
+unapplied alternative stalling at the marks seam — re-offering options instead of applying,
+selection discipline misfiring on execution work. Marked scope is a directive to apply, not a
+menu to re-offer.
+
 Loop continues until user says "Looks good" or explicitly ends iteration.
 
 ---
